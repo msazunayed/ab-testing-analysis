@@ -1,14 +1,3 @@
-# Fake data for the checkout button test. I made up the numbers below based on
-# roughly what I've seen in similar tests before (baseline ~10-11%, few pp lift).
-# Not pulling from a real dataset here, just simulating one so the rest of the
-# analysis has something realistic to chew on.
-#
-# A few things I deliberately baked in instead of making this a clean,
-# boring dataset:
-#   - the treatment effect is bigger on mobile than desktop
-#   - there's a bit of a novelty spike the first few days that fades
-#   - revenue is skewed (lognormal), not a nice bell curve
-
 import os
 import numpy as np
 import pandas as pd
